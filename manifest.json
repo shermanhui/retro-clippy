@@ -1,0 +1,6 @@
+{
+    "name": "Clippy Retro",
+    "description": "Copy Metro Retro board notes as bullet point list items and action items as a checkbox list",
+    "version": "1.0",
+    "manifest_version": 3
+  }
