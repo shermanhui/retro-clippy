@@ -81,11 +81,3 @@ export const formatJSONtoHTMLList = (retroJSON: retroJSON): HTMLElement => {
 
   return container;
 };
-
-// TODO: fix TS errors for:
-// 1. document.getByElementId -> can be null
-// 2. fix retroJSON[key] TS error -> keys aren't guaranteed to be strings in a JSON type, perhaps create a custom interface // RESOLUTION -> define custom interface
-// 3. fix window.getSelection() returning null // RESULTION -> resolve by using ! operator as we are confident the window object will exist
-
-// TODO: Continue refactor of list item creation to be cleaner
-// TODO: Add note author
