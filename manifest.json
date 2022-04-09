@@ -1,6 +1,15 @@
 {
-    "name": "Clippy Retro",
-    "description": "Copy Metro Retro board notes as bullet point list items and action items as a checkbox list",
-    "version": "1.0",
-    "manifest_version": 3
+  "name": "Retro Clippy",
+  "description": "Chrome Extension that extracts metroretro.io JSON to your clipboard as an HTML list",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "clipboardRead", "clipboardWrite", "contextMenus", "scripting"],
+  "icons": {
+    "16": "clip_16.png",
+    "48": "clip_48.png",
+    "128": "clip_128.png"
   }
+}

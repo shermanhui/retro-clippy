@@ -7,7 +7,7 @@ module.exports = {
     // eventPage: path.join(__dirname, "src/eventPage.ts")
   },
   output: {
-    path: path.join(__dirname, "dist/clippy-retro"),
+    path: path.join(__dirname, "dist/retro-clippy"),
     filename: "[name].js"
   },
   module: {
